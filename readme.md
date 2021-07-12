@@ -37,6 +37,6 @@ The Python KS-test approach identified 12 genomic loci of interest. The R DESeq2
 
 ## Conclusion
 
-The KS-test provided a clear cutoff point to select loci of significance (P<0.1), whereas the same cutoff in the DESeq table felt arbitrary. The KS-test appears to be more robust for this data, and it was easier to implement without requiring a third party package.
+The KS-test provided a clear cutoff point to select loci of significance (P<0.1), whereas the same cutoff in the DESeq table was arbitrary. The KS-test appears to be more robust for this data, and it was easier to implement without requiring a third party package.
 
 Finally, I note that the "A" and "B" modifications were treated as separate dependant variables. A more sophisticated method could examine correlations between these modifications. 
